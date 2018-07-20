@@ -22,6 +22,6 @@ Block Timer: 60 seconds
 
 Maturity: 30 blocks
 
-Max supply: 21 500 000 MASTERDEMO
+Max supply: 20 500 000 MASTERDEMO
 
 Premine: 400 000 MD
