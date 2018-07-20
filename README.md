@@ -4,17 +4,17 @@ MASTERDEMO Specifications
 
 Full info
 
-Ticker: MASTERDEMO
+Ticker: MD
 
 Algorithm: X11
 
-Masternode colletral: 5000 MASTERDEMO
+Masternode colletral: 5000 MD
 
-Masternode rewards: 85%
+Masternode rewards: 80%
 
-Block reward till block: 6000 - 1 MASTERDEMO
+Block reward till block: 5000 - 10 MD
 
-Block reward: 100 MASTERDEMO - 200 MASTERDEMO
+Block reward: 45 - 135 MD
 
 POS start block: 1200
 
@@ -22,6 +22,6 @@ Block Timer: 60 seconds
 
 Maturity: 30 blocks
 
-Max supply: 21 000 000 MASTERDEMO
+Max supply: 20 500 000 MASTERDEMO
 
-Premine: 300 000 MASTERDEMO
+Premine: 400 000 MD
