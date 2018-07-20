@@ -6,10 +6,10 @@ CONFIGFOLDER='/root/.masterdemo'
 COIN_DAEMON='masterdemod'
 COIN_CLI='masterdemo-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_REPO='https://github.com/masterdemocoin/masterdemo.git'
-COIN_TGZ='https://github.com/masterdemocoin/masterdemo/releases/download/v3.0.0.0/mirq-3.0.0-x86_64-linux-signed.tar.gz'
+COIN_REPO='https://github.com/Fray26/MasterDemo.git'
+COIN_TGZ='https://github.com/Fray26/MasterDemo/releases/download/1.0.0.1/master-1.0.0.1_x64-linux.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='masterdemo'
+COIN_NAME='MasterDemo'
 COIN_PORT=57059
 RPC_PORT=57057
 
