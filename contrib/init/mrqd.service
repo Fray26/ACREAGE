@@ -1,0 +1,26 @@
+[Unit]
+Description=MASTERDEMO's distributed currency daemon
+After=network.target
+
+[Service]
+User=masterdemo
+Group=masterdemo
+
+Type=forking
+PIDFile=/var/lib/masterdemod/masterdemod.pid
+
+ExecStart=/usr/bin/masterdemod -daemon -pid=/var/lib/masterdemod/masterdemod.pid \
+          -conf=/etc/masterdemo/masterdemo.conf -datadir=/var/lib/masterdemod
+
+ExecStop=-/usr/bin/masterdemo-cli -conf=/etc/masterdemo/masterdemo.conf \
+         -datadir=/var/lib/masterdemod stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

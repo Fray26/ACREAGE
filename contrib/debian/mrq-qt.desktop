@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=MasterDemo
+Comment=MasterDemo P2P Cryptocurrency
+Comment[fr]=MasterDemo, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=MasterDemo, eşten eşe kriptografik sanal para birimi
+Exec=masterdemo-qt %u
+Terminal=false
+Type=Application
+Icon=masterdemo128
+MimeType=x-scheme-handler/masterdemo;
+Categories=Office;Finance;

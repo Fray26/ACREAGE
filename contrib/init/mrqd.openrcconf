@@ -1,0 +1,26 @@
+# /etc/conf.d/masterdemod: config file for /etc/init.d/masterdemod
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/masterdemo/masterdemo.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/masterdemod"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/masterdemod.pid"
+
+# Where to write masterdemod data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/masterdemod"
+
+# User and group to own masterdemod process
+#BITCOIND_USER="masterdemo"
+#BITCOIND_GROUP="masterdemo"
+
+# Path to masterdemod executable
+#BITCOIND_BIN="/usr/bin/masterdemod"
+
+# Nice value to run masterdemod under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
