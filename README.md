@@ -4,7 +4,7 @@ MASTERDEMO Specifications
 
 Full info
 
-Ticker: MAD
+Ticker: MD
 
 Algorithm: X11
 
